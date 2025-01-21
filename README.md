@@ -1,6 +1,8 @@
-projeto ainda sem finalidade.
+<h1>projeto ainda sem finalidade.</h1>
 
+<details>
+  <summary>Ideias:</summary>
 
-ideias: 
-1- portifólio
-2- site pessoal
+  <p>1 - Portifólio</p>
+  <p>2 - Site Pessoal</p>
+</details>
