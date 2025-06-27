@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100vh;
+    background-color: #fff;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- bloco 1 */
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 40px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+header ul li a.active {
+    color: rgb(204, 200, 183);
+}
+
+header.rolagem {
+    background-color: #000;
+    padding: 20px 4%;
+    z-index: 1000;
+}
+
+header.rolagem a {
+    color: #fff;
+}
+
+.banner {
+    height: 60vh;
+    background-image: url(/imagens/ChatGPT\ Image\ 26\ de\ jun.\ de\ 2025\,\ 14_29_47.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 50px;
+}
+
+.banner h1 {
+    font-size: 3.5em;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+.bloco2 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 5%;
+    box-sizing: border-box;
+}
+
+.bloco2-lado-esquerdo,
+.bloco2-lado-direito {
+    width: 100%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.bloco2-lado-esquerdo {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-contatos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.telefone-link {
+    display: inline-block;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin: 4px 0;
+    margin-left: 2rem;
+}
+
+.telefone-link:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+.info-contatos-maps{
+    margin-top: 5rem;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.bloco2-lado-direito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-contato {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.formulario-contato label {
+    font-weight: bold;
+}
+
+.obrigatorio {
+    font-weight: normal;
+    color: gray;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.inputs {
+    display: flex;
+    gap: 20px;
+}
+
+.inputs input {
+    flex: 1;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 8px 4px;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+}
+
+.formulario-contato button {
+    padding: 12px 24px;
+    border: 2px solid black;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 120px;
+}
+
+.formulario-contato button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- botão rolar até o início */
+
+#back-to-top {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    /* Cor do botão */
+    border-radius: 50%;
+    /* Faz o botão ser uma bolinha */
+    position: fixed;
+    bottom: 100px;
+    /* Distância da parte inferior */
+    right: 100px;
+    /* Distância da lateral direita */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra para destaque */
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    z-index: 1001;
+    /* Certifique-se de que o botão fique acima de outros elementos */
+    top: auto;
+}
+
+#back-to-top a:hover {
+    transform: scale(1.1);
+    /* Efeito ao passar o mouse */
+    background-color: #000;
+    /* Cor mais escura no hover */
+}
+
+#back-to-top i {
+    color: #fff;
+    /* Cor do ícone */
+    font-weight: bold;
+    font-size: 20px;
+}

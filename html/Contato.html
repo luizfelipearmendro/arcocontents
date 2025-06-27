@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="\css\Contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <title>Contato — Arco Contents</title>
+</head>
+
+<body>
+    <!------------------------------------------------------------------------------------------------------------ bloco 1 -->
+    <header id="header-contato">
+        <div class="conteiner">
+            <div class="flex">
+                <a href="Index.html"><img src="\imagens/file-removebg-preview - Copia.png" alt="arcocontents" width="25"
+                        height="20"></a>
+                <nav>
+                    <ul>
+                        <li><a href="Sobre.html">Sobre</a></li>
+                        <li><a href="Servicos.html">Serviços</a></li>
+                        <li><a href="Equipe.html">Equipe</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                        <li><a href="Contato.html" class="active">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h1>
+            Contate-nos
+        </h1>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------------------ bloco 2 -->
+
+    <section id="bloco2" class="bloco2">
+        <div class="bloco2-lado-esquerdo">
+            <div class="info-contatos">
+
+                <i class="bi bi-envelope-at-fill"></i>
+                <a href="mailto:arcocontents@gmail.com" class="telefone-link" aria-label="email"
+                    aria-describedby="basic-addon1" target="_blank">
+                    arcocontents@gmail.com
+                </a><br>
+
+                <i class="bi bi-telephone-fill"></i>
+                <a href="tel:+5566996306201" class="telefone-link" target="_blank">
+                    (66) 9 9630-6201
+                </a>
+
+                <div class="info-contatos-maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.5590536308378!2d-54.292326815110385!3d-15.56175147869689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x937725b947eafb2f%3A0xc37ebe5ecaae0ea6!2sR.%20Nicolau%20Klimirk%2C%2073%20-%20Jardim%20Progresso%2C%20Primavera%20do%20Leste%20-%20MT%2C%2078850-000!5e0!3m2!1spt-BR!2sbr!4v1750969811929!5m2!1spt-BR!2sbr"
+                        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bloco2-lado-direito">
+            <form action="https://formsubmit.co/luizarmendro@gmail.com" method="POST" class="formulario-contato" target="_blank">
+
+                <!-- Campo oculto para evitar spam (opcional) -->
+                <input type="text" name="_honey" style="display:none">
+
+                <!-- Impede redirecionamento para o site da FormSubmit -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Redireciona para uma página de agradecimento após envio -->
+                <input type="hidden" name="_next" value="https://seudominio.com/obrigado.html">
+
+                <!-- Campos reais -->
+                <label>Nome <span class="obrigatorio">(Obrigatório)</span></label>
+                <input type="text" name="Nome" placeholder="Seu nome" required>
+
+                <label>E-mail <span class="obrigatorio">(Obrigatório)</span></label>
+                <input type="email" name="E-mail" placeholder="Seu e-mail" required>
+
+                <label>Mensagem <span class="obrigatorio">(Obrigatório)</span></label>
+                <textarea name="Mensagem" placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------------------ plugin, botão rolar pra cima e js -->
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <button id="back-to-top" onclick="scrollToTop()" style="display: none;">
+        <i class="bi bi-arrow-up-short"></i>
+    </button>
+
+    <script src="\script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        AOS.init();
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+
+</html>
