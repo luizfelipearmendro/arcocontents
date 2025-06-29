@@ -428,11 +428,16 @@ header.rolagem a {
         gap: 40px;
     }
 
+    .bloco3-mobile-video {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     .bloco3-mobile-video video {
         margin-top: 4rem;
         max-width: 100%;
         height: 400px !important;
-        text-align: center;
     }
 
     .bloco3-mobile-conteudo {

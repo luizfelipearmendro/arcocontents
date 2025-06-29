@@ -334,7 +334,7 @@ header.rolagem a {
 
     .bloco2 {
         width: 100%;
-        min-height: 130vh;
+        min-height: 100vh;
         background-color: #fff;
         display: flex;
         flex-direction: column;
