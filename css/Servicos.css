@@ -6,7 +6,7 @@
 }
 
 html {
-    height: 750vh;
+    height: 120vh;
     background-color: #fff;
 }
 
@@ -91,6 +91,169 @@ header.rolagem a {
 .banner h1 span {
     color: #e7e7e7;
     font-size: 1.2rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+.bloco2 {
+    width: 100%;
+    height: 130vh;
+    background-color: #fff;
+}
+
+.bloco2-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco2-titulo h2 {
+    font-size: 2.3rem;
+    color: #333;
+    margin-bottom: 30px;
+    margin-top: 6rem;
+}
+
+.bloco2-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    gap: 40px;
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.bloco2-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.bloco2-box img {
+    height: 8rem;
+    margin-bottom: 10px;
+}
+
+.bloco2-box h4 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.bloco2-box p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    max-width: 350px;
+}
+
+.bloco2-box span {
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- bloco 3 */
+
+.bloco3 {
+    width: 100%;
+    height: 60vh;
+    padding: 80px 5%;
+    background-color: rgb(44, 43, 39);;
+    text-align: center;
+}
+
+.bloco3-conteudo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.bloco3-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 5rem;
+}
+
+.bloco3-grid img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(104, 103, 97);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bloco3-grid img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgb(75, 74, 66);
+}
+
+/* ---------------------------------------------------------------------------------------------------------- footer */
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 40px 5% 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-logo h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.footer-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #000;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: #000;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #888;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- botão rolar até o início */

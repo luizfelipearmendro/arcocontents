@@ -89,6 +89,10 @@ header.rolagem a {
     font-size: 1.2rem;
 }
 
+.banner strong {
+    color: rgb(204, 200, 183);
+}
+
 /* ---------------------------------------------------------------------------------------------------------- bloco 2 */
 
 .bloco2 {
@@ -113,24 +117,22 @@ header.rolagem a {
 }
 
 .botao-bloco2 {
+    display: inline-block;
     margin-top: 10vh;
-    padding: 25px 40px;
+    padding: 20px 40px;
     border-radius: 3px;
-    border: 1px solid #333;
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+    font-size: 1.2rem;
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    background-color: #fff;
 }
 
 .botao-bloco2:hover {
-    background-color: #dddddd;
-}
-
-.botao-bloco2 a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #000;
-    transition: all 0.2s ease-in-out;
+    background-color: #000;
+    color: rgb(204, 200, 183);
 }
 
 /* ---------------------------------------------------------------------------------------------------------- bloco 3 */
@@ -173,6 +175,10 @@ header.rolagem a {
     line-height: 1.6;
 }
 
+.bloco3-conteudo strong {
+    color: rgb(204, 200, 183);
+}
+
 /* ---------------------------------------------------------------------------------------------------------- bloco 4 */
 
 .bloco4 {
@@ -204,6 +210,10 @@ header.rolagem a {
     font-size: 1.4rem;
     color: #000;
     line-height: 1.6;
+}
+
+.bloco4-conteudo strong {
+    color: rgb(102, 98, 77);
 }
 
 /* ---------------------------------------------------------------------------------------------------------- bloco 5 */
@@ -245,8 +255,9 @@ header.rolagem a {
 }
 
 .botao-bloco5:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: rgb(204, 200, 183);
+    ;
+    color: rgb(44, 43, 39);
 }
 
 /* ---------------------------------------------------------------------------------------------------------- bloco 6 */
@@ -285,7 +296,7 @@ header.rolagem a {
     color: #555;
 }
 
-.bloco6-conteudo-wrapper a{
+.bloco6-conteudo-wrapper a {
     text-decoration: none;
     color: #555;
     font-weight: bold;
@@ -330,7 +341,7 @@ header.rolagem a {
     line-height: 1.6;
 }
 
-.bloco7-conteudo a{
+.bloco7-conteudo a {
     text-decoration: none;
     color: #fff;
 }
@@ -362,8 +373,9 @@ header.rolagem a {
     margin-top: 10rem;
 }
 
-.bloco8-videos{
+.bloco8-videos video {
     margin-top: 5rem;
+    height: 350px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- bloco 9 */
@@ -381,7 +393,7 @@ header.rolagem a {
     box-sizing: border-box;
 }
 
-.bloco9-conteudo h1{
+.bloco9-conteudo h1 {
     font-size: 2.8rem;
     color: #fff;
     margin-bottom: 20px;
@@ -410,7 +422,7 @@ header.rolagem a {
 
 .botao-bloco9:hover {
     background-color: #fff;
-    color: #000;
+    color: rgb(44, 43, 39);
 }
 
 /* ---------------------------------------------------------------------------------------------------------- footer */
@@ -520,11 +532,20 @@ header.rolagem a {
 
 /* ---------------------------------------------------------------------------------------------------------- mobile */
 
-@media (max-width:768px) {
+@media (max-width: 968px) {
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 1 */
+
     header {
-        padding: 20px 0;
+        width: 100%;
+        padding: 10px 4%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: .5s;
+        display: flex;
+        justify-content: flex-start;
         align-items: center;
-        justify-content: center;
     }
 
     header ul {
@@ -535,6 +556,12 @@ header.rolagem a {
     header ul li {
         display: flex;
         margin: 0;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 0.8rem;
     }
 
     .flex {
@@ -549,7 +576,7 @@ header.rolagem a {
 
     .banner {
         height: 80vh;
-        background-image: url(imagens/ChatGPT\ Image\ 26\ de\ jun.\ de\ 2025\,\ 14_29_47.png);
+        background-image: url(/imagens/ChatGPT\ Image\ 26\ de\ jun.\ de\ 2025\,\ 14_29_47.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -562,12 +589,100 @@ header.rolagem a {
 
     .banner h1 span {
         color: #fff;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .banner h1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         color: #fff;
-        padding: 30px;
+        padding: 10px;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+    .bloco3 {
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 5%;
+    }
+
+    .bloco3-imagem img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 3px;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 3 */
+
+    .bloco4-maps {
+        width: 100%;
+        height: 300px;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 4 */
+
+
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 5 */
+
+
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 6 */
+
+
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 7 */
+
+
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 8 */
+
+    .bloco8 {
+        display: none;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 9 */
+
+    .bloco9 {
+        min-height: 70vh;
+        background-color: #fff;
+    }
+
+    .bloco9-conteudo h1 {
+        font-size: 2rem;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .bloco9-conteudo {
+        margin-left: 50px;
+        text-align: center;
+        color: #000;
+    }
+
+    .botao-bloco9 {
+        display: inline-block;
+        margin-top: 10vh;
+        padding: 20px 30px;
+        border-radius: 3px;
+        border: 2px solid #000;
+        background-color: transparent;
+        color: #000;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .botao-bloco9:hover {
+        background-color: #fff;
+        color: rgb(44, 43, 39);
     }
 }

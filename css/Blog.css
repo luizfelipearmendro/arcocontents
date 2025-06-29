@@ -6,7 +6,7 @@
 }
 
 html {
-    height: 750vh;
+    height: 300vh;
     background-color: #fff;
 }
 
@@ -93,12 +93,195 @@ header.rolagem a {
     font-size: 1.2rem;
 }
 
+/* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+.bloco2 {
+    width: 100%;
+    min-height: 70vh;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 5%;
+    gap: 80px;
+    box-sizing: border-box;
+}
+
+.bloco2-video img {
+    max-width: 500px;
+    height: auto;
+}
+
+.bloco2-conteudo {
+    max-width: 500px;
+    margin-left: 50px;
+    color: #000;
+}
+
+.bloco2-conteudo h2 {
+    font-size: 2.2rem;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bloco2-conteudo p {
+    font-size: 1.1rem;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+.bloco3 {
+    width: 100%;
+    min-height: 50vh;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 5%;
+    gap: 80px;
+    box-sizing: border-box;
+}
+
+.bloco3-video img {
+    max-width: 500px;
+    height: auto;
+}
+
+.bloco3-conteudo {
+    max-width: 500px;
+    margin-left: 50px;
+    color: #000;
+}
+
+.bloco3-conteudo h2 {
+    font-size: 2.2rem;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bloco3-conteudo p {
+    font-size: 1.1rem;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- bloco 4 */
+
+.bloco4 {
+    width: 100%;
+    min-height: 70vh;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 5%;
+    gap: 80px;
+    box-sizing: border-box;
+}
+
+.bloco4-video img {
+    max-width: 500px;
+    height: auto;
+}
+
+.bloco4-conteudo {
+    max-width: 500px;
+    margin-left: 50px;
+    color: #000;
+}
+
+.bloco4-conteudo h2 {
+    font-size: 2.2rem;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bloco4-conteudo p {
+    font-size: 1.1rem;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- footer */
+
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 40px 5% 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-logo h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #7e7e7e;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #fff;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #888;
+}
+
 /* ---------------------------------------------------------------------------------------------------------- botão rolar até o início */
 
 #back-to-top {
     width: 50px;
     height: 50px;
-    background-color: #000;
+    background-color: rgb(44, 43, 39);
     /* Cor do botão */
     border-radius: 50%;
     /* Faz o botão ser uma bolinha */
