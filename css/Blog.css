@@ -315,3 +315,183 @@ header.rolagem a {
     font-weight: bold;
     font-size: 20px;
 }
+
+/* ---------------------------------------------------------------------------------------------------------- mobile */
+
+@media (max-width: 968px) {
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 1 */
+
+    header {
+        width: 100%;
+        padding: 10px 4%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: .5s;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    header ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    header ul li {
+        display: flex;
+        margin: 0;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+
+    .header.rolagem {
+        justify-content: center;
+    }
+
+    .flex {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .flex img {
+        display: none;
+    }
+
+    .banner {
+        height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .banner h1 span {
+        color: #fff;
+        font-size: 0.7rem;
+    }
+
+    .banner h1 {
+        font-size: 1rem;
+        color: #fff;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+    .bloco2 {
+        padding: 20px 5%;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .bloco2-video video {
+        max-width: 100%;
+        height: 200px !important;
+        margin-top: 5rem;
+    }
+
+    .bloco2-conteudo {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .bloco2-conteudo p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 3 */
+
+    .bloco3 {
+        display: none;
+    }
+
+    .bloco3-mobile {
+        padding: 20px 5%;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .bloco3-mobile-video video {
+        margin-top: 4rem;
+        max-width: 100%;
+        height: 400px !important;
+        text-align: center;
+    }
+
+    .bloco3-mobile-conteudo {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+        line-height: 1.6;
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+
+    .bloco3-mobile-conteudo h2 {
+        margin-bottom: 8px;
+        line-height: 1.6;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 4 */
+
+    .bloco4 {
+        padding: 20px 5%;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .bloco4-video video {
+        max-width: 100%;
+        height: 200px !important;
+        margin-top: 5rem;
+    }
+
+    .bloco4-conteudo {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .bloco4-conteudo h2 {
+        margin-bottom: 5px;
+        line-height: 1.6;
+    }
+
+    .bloco4-conteudo p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- botão rolar até o início */
+
+    #back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 969px) {
+    .bloco3-mobile {
+        display: none;
+    }
+}

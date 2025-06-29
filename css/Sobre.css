@@ -278,3 +278,154 @@ header.rolagem a {
     font-weight: bold;
     font-size: 20px;
 }
+
+/* ---------------------------------------------------------------------------------------------------------- mobile */
+
+@media (max-width: 968px) {
+
+    html {
+        height: 350vh !important;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 1 */
+
+    header {
+        width: 100%;
+        padding: 10px 4%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: .5s;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    header ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    header ul li {
+        display: flex;
+        margin: 0;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+
+    .header.rolagem {
+        justify-content: center;
+    }
+
+    .flex {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .flex img {
+        display: none;
+    }
+
+    .banner {
+        height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .banner h1 span {
+        color: #fff;
+        font-size: 0.7rem;
+    }
+
+    .banner h1 {
+        font-size: 1rem;
+        color: #fff;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+    .bloco2 {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #fff;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .bloco2-imagem img {
+        max-width: 100%;
+        border-radius: 3px;
+    }
+
+    .bloco2-conteudo {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+        color: #000;
+    }
+
+    .bloco2-conteudo h2 {
+        font-size: 1.8rem;
+        color: #000;
+    }
+
+    .bloco2-conteudo p {
+        font-size: 1rem;
+        color: #000;
+        line-height: 1.6;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 3 */
+
+    .bloco3 {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .bloco3-imagem img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 3px;
+    }
+
+    .bloco3-conteudo {
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+        color: #fff;
+    }
+
+    .bloco3-conteudo h2 {
+        font-size: 1.8rem;
+        color: #d3d3d3;
+    }
+
+    .bloco3-conteudo p {
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- botão rolar até o início */
+
+    #back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
