@@ -467,3 +467,52 @@ header.rolagem a {
         height: 50px;
     }
 }
+
+@media (min-width: 968px) and (max-width: 1440px) {
+
+    
+    /* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+    .bloco2 {
+        width: 100%;
+        height: auto;
+        padding: 40px 5%;
+        background-color: #fff;
+    }
+
+    .bloco2-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 30px;
+        padding: 40px 5%;
+    }
+
+    .bloco2-box img {
+        height: 6rem;
+        margin-bottom: 10px;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 3 */
+
+    .bloco3 {
+        width: 100%;
+        height: auto;
+        padding: 60px 5%;
+        background-color: rgb(44, 43, 39);
+        text-align: center;
+    }
+
+    .bloco3-conteudo h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+
+    .bloco3-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        justify-items: center;
+        margin-top: 3rem;
+    }
+}

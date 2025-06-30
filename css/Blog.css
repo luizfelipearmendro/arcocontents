@@ -545,3 +545,44 @@ header.rolagem a {
         display: none;
     }
 }
+
+@media (min-width: 968px) and (max-width: 1440px) {
+
+    
+    /* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+    .bloco2-video video {
+        height: 250px !important;
+        margin-top: 5rem;
+    }
+
+    .bloco2-conteudo {
+        max-width: 500px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .bloco2-conteudo p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 4 */
+
+
+    .bloco4-video video {
+        height: 250px !important;
+        margin-top: 5rem;
+    }
+
+    .bloco4-conteudo {
+        max-width: 500px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .bloco4-conteudo p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}

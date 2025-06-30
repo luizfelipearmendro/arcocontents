@@ -424,3 +424,18 @@ header.rolagem a {
         height: 50px;
     }
 }
+
+@media (min-width: 968px) and (max-width: 1440px) {
+
+    /* ---------------------------------------------------------------------------------------------------------- bloco 2 */
+
+    .info-contatos-maps iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .social-icons {
+        margin-top: 4rem;
+        margin-left: 40%;
+    }
+}
